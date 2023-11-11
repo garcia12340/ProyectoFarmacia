@@ -41,8 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DProveedorTrabajador.cs" />
+    <Compile Include="DCliente.cs" />
     <Compile Include="DConexion.cs" />
+    <Compile Include="DPresentacion.cs" />
+    <Compile Include="DProducto.cs" />
+    <Compile Include="DProveedor.cs" />
+    <Compile Include="DRubro.cs" />
+    <Compile Include="DTipoProducto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaModelo\CapaModelo.csproj">
+      <Project>{48595f48-d920-4ade-9173-a24075621c63}</Project>
+      <Name>CapaModelo</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
