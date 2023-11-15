@@ -32,11 +32,11 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtprecio = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtombrecompania = new System.Windows.Forms.TextBox();
+            this.txttrabajador = new System.Windows.Forms.TextBox();
+            this.txtdireccion = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -87,12 +87,12 @@
             this.dataGridView1.Size = new System.Drawing.Size(590, 370);
             this.dataGridView1.TabIndex = 3;
             // 
-            // textBox2
+            // txtprecio
             // 
-            this.textBox2.Location = new System.Drawing.Point(737, 120);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(265, 20);
-            this.textBox2.TabIndex = 5;
+            this.txtprecio.Location = new System.Drawing.Point(737, 120);
+            this.txtprecio.Name = "txtprecio";
+            this.txtprecio.Size = new System.Drawing.Size(265, 20);
+            this.txtprecio.TabIndex = 5;
             // 
             // textBox4
             // 
@@ -101,26 +101,26 @@
             this.textBox4.Size = new System.Drawing.Size(265, 20);
             this.textBox4.TabIndex = 7;
             // 
-            // textBox5
+            // txtombrecompania
             // 
-            this.textBox5.Location = new System.Drawing.Point(737, 12);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(265, 20);
-            this.textBox5.TabIndex = 8;
+            this.txtombrecompania.Location = new System.Drawing.Point(737, 12);
+            this.txtombrecompania.Name = "txtombrecompania";
+            this.txtombrecompania.Size = new System.Drawing.Size(265, 20);
+            this.txtombrecompania.TabIndex = 8;
             // 
-            // textBox6
+            // txttrabajador
             // 
-            this.textBox6.Location = new System.Drawing.Point(737, 50);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(265, 20);
-            this.textBox6.TabIndex = 9;
+            this.txttrabajador.Location = new System.Drawing.Point(737, 50);
+            this.txttrabajador.Name = "txttrabajador";
+            this.txttrabajador.Size = new System.Drawing.Size(265, 20);
+            this.txttrabajador.TabIndex = 9;
             // 
-            // textBox7
+            // txtdireccion
             // 
-            this.textBox7.Location = new System.Drawing.Point(737, 84);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(265, 20);
-            this.textBox7.TabIndex = 10;
+            this.txtdireccion.Location = new System.Drawing.Point(737, 84);
+            this.txtdireccion.Name = "txtdireccion";
+            this.txtdireccion.Size = new System.Drawing.Size(265, 20);
+            this.txtdireccion.TabIndex = 10;
             // 
             // label1
             // 
@@ -242,11 +242,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtdireccion);
+            this.Controls.Add(this.txttrabajador);
+            this.Controls.Add(this.txtombrecompania);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtprecio);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -266,11 +266,11 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtprecio;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtombrecompania;
+        private System.Windows.Forms.TextBox txttrabajador;
+        private System.Windows.Forms.TextBox txtdireccion;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
